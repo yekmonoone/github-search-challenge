@@ -1,0 +1,18 @@
+.user-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  
+    .user-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+      border: 4px solid #4caf50; /* Green border color */
+    }
+  
+    .user-info {
+      color: #4caf50; /* Green text color */
+    }
+  }
+  
