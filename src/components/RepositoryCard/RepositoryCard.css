@@ -1,0 +1,44 @@
+.repository-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 6px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    box-sizing: border-box; 
+  
+    @media (min-width: 768px) {
+      
+      width: calc(50% - 12px);
+    }
+  
+    @media (min-width: 992px) {
+      
+      width: calc(33.3333% - 12px); 
+    }
+  
+    @media (min-width: 1200px) {
+      
+      width: calc(25% - 12px);
+    }
+  }
+  
+  .repository-card h2 {
+    color: #333;
+    margin: 0 0 8px 0; 
+  }
+  
+  .repository-card p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .repository-card a {
+    display: block;
+    margin-top: 8px;
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
