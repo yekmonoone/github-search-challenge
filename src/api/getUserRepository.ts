@@ -1,8 +1,6 @@
 import Repository from "../interfaces/Repository";
 
 
-//documentation of the codes below
-
 const getUserRepository = async (username: string): Promise<Repository[]> => {
     const headers = {
         Authorization: "Bearer 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",
