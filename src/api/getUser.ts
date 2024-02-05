@@ -2,7 +2,7 @@ import User from "../interfaces/User";
 
 const getUser = async (username: string): Promise<User> => {
   const headers = {
-    Authorization: "Bearer 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",
+    Authorization: "Bearer [YOUR_GITHUB_TOKEN]",
   };
 
   

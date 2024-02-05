@@ -3,7 +3,7 @@ import Repository from "../interfaces/Repository";
 
 const getUserRepository = async (username: string): Promise<Repository[]> => {
     const headers = {
-        Authorization: "Bearer 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",
+        Authorization: "Bearer [YOUR_GITHUB_TOKEN]",
     };
 
     const res = await fetch(`https://api.github.com/users/${username}/repos`, { headers });
