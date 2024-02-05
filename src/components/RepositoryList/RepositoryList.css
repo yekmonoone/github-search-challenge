@@ -1,0 +1,12 @@
+
+.repository-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: medium-space-between; 
+    width: 100%; 
+  
+    @media (min-width: 768px) {
+      justify-content: medium-space-between;
+    }
+  }
+  
