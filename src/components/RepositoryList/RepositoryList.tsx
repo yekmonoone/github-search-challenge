@@ -5,7 +5,7 @@
  * @param {Object[]} repositories - The array of repositories to be rendered.
  * @returns {JSX.Element} The rendered RepositoryList component.
  */
-import React, { useEffect, useState } from 'react';
+
 import RepositoryCard from '../RepositoryCard/RepositoryCard'; 
 import './RepositoryList.css';
 
