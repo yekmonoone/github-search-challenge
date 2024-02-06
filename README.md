@@ -31,3 +31,35 @@ npm install
 ```
 npm run dev
 ```
+
+<h2> Testing:</h2>
+
+<p>To run tests:</p>
+
+```
+npm run test
+```
+
+<h2> Storybook:</h2>
+
+<p>To start the Storybook:</p>
+
+```
+npm run storybook
+```
+
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   React
+*   Typescript
+*   Storybook
+*   ViteJS
+
+<h2>Future Improvements</h2>
+
+*   Make a better UI
+*   Add pagination to the repository list
+*   Rank repositories according to various criteria 
+*   Make a better Storybook
