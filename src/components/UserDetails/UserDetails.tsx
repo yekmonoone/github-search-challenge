@@ -24,6 +24,7 @@ const UserDetails: React.FC<UserDetailsProps> = ({ username }: UserDetailsProps)
             try {
                 const user = await getUser(username);
                 setUserInfo(user);
+
             } catch (error) {
                 setUserInfo(null);
             }

@@ -1,8 +1,13 @@
 import { Meta, Story } from '@storybook/react';
-import RepositoryList from './RepositoryList'; // Update the import path based on your project structure
+import RepositoryList from './RepositoryList'; 
 import getUserRepository from '../../api/getUserRepository';
 
-const userRepositories = await getUserRepository('yekmonoone'); // Replace 'username' with the actual username
+/**
+ * Retrieves the repositories of a user and displays them in a list.
+ * @param {string} username - The username of the user whose repositories will be retrieved.
+ */
+
+const userRepositories = await getUserRepository('yekmonoone');
 
 export default {
     title: 'Components/RepositoryList',

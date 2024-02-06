@@ -1,4 +1,13 @@
+/**
+ * Retrieves the repositories of a user from the GitHub API.
+ * @param username - The username of the user.
+ * @returns A promise that resolves to an array of Repository objects.
+ * @throws An error if the API request fails.
+ */
+
+
 import Repository from "../interfaces/Repository";
+
 
 
 const getUserRepository = async (username: string): Promise<Repository[]> => {
