@@ -6,7 +6,7 @@ export default {
   component: SearchUserRepository,
 } as Meta;
 
-const Template: Story = (args) => <SearchUserRepository username={'yekmonoone'} />;
+const Template: Story = () => <SearchUserRepository username={'yekmonoone'} />;
 
 export const Default = Template.bind({});
 Default.args = {};

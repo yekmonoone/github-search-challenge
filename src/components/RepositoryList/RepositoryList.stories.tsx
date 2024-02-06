@@ -9,7 +9,7 @@ export default {
     component: RepositoryList,
 } as Meta;
 
-const Template: Story = (args) => <RepositoryList repositories={userRepositories} />;
+const Template: Story = () => <RepositoryList repositories={userRepositories} />;
 
 
 export const Default = Template.bind({});
