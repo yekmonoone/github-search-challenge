@@ -1,23 +1,33 @@
-# Search User's Repositories in Github
+<h1 align="center" id="title">Search User's Repositories in Github</h1>
 
-Allows users to search for GitHub users, view their profiles, and explore their repositories. Users can easily search for specific users by their username and view detailed information.
+<p id="description">Allows users to search for GitHub users view their profiles and explore their repositories. Users can easily search for specific users by their username and view detailed information. Additionally users can explore the repositories of a selected user and filter them based on languages and repository names.</p>
 
-Additionally, users can explore the repositories of a selected user and filter them based on languages and repository names.
+  
+  
+<h2>🧐 Features</h2>
 
+Here're some of the project's best features:
 
+*   You can search for user information.
+*   You can find user's repositories.
+*   You can filter the repository with languages and name input
 
-## Demo
+<h2>🛠️ Installation Steps:</h2>
 
-Fill it
+<p>1. Clone the repository to your local machine:</p>
 
-## Tech Stack
+```
+git clone https://github.com/yekmonoone/github-search-challenge.git
+```
 
-Fill it
+<p>2. Install the dependencies:</p>
 
-## Installation
+```
+npm install
+```
 
-Fill it
+<p>3. Start the development server:</p>
 
-## Future Improvements
-
-Fill it
+```
+npm run dev
+```
