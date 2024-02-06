@@ -33,7 +33,12 @@ const UserDetails: React.FC<UserDetailsProps> = ({ username }: UserDetailsProps)
         fetchUserData();
     }, [username]);
 
+    if (!userInfo) {
+        return <div>User not found!</div>;
+    }
+
     return (
+        
         <div className="user-details">
             {userInfo && (
                 <>
