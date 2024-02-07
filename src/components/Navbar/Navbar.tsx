@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
                 alt="GitHub Logo"
                 className="github-logo"
             />
-            <span className="brand">GitFinder.V</span>
+            <span data-testid= {'navbarTest'} className="brand">GitFinder.V</span>
         </div>
     );
 };

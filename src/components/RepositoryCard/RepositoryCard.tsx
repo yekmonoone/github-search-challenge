@@ -17,7 +17,7 @@ import Repository from '../../interfaces/Repository';
 const RepositoryCard: React.FC<Repository> = ({ name, description, language, stargazers_count, html_url, updated_at }: Repository) => {
     return (
         <div className="repository-card">
-            <h2>{name}</h2>
+            <h2 data-testid="repository_name">{name}</h2>
             <p>{description}</p>
             <p>Language: {language}</p>
             <p>Stargazers Count: {stargazers_count}</p>

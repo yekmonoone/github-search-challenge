@@ -17,7 +17,7 @@ interface RepositoryListProps {
 const RepositoryList: React.FC<RepositoryListProps> = ({ repositories }) => {
     
     return (
-        <div className="repository-list">
+        <div data-testid="repository-list" className="repository-list">
             {repositories.map((repo) => (
                 <RepositoryCard key={repo.id} {...repo} />
             ))}
