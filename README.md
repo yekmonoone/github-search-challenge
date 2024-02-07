@@ -2,7 +2,9 @@
 
 <p id="description">Allows users to search for GitHub users view their profiles and explore their repositories. Users can easily search for specific users by their username and view detailed information. Additionally users can explore the repositories of a selected user and filter them based on languages and repository names.</p>
 
-  
+<h2>🚀 Demo</h2>
+
+[https://gitfinderv.netlify.app/](https://gitfinderv.netlify.app/)
   
 <h2>🧐 Features</h2>
 
