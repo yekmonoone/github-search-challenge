@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react';
 import Navbar from './Navbar'; 
-import React from 'react';
+
 
 /**
  * Storybook configuration for the Navbar component.

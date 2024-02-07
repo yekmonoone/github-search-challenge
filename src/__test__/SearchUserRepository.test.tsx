@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import SearchUserRepository from '../components/SearchUserRepository/SearchUserRepository';
 import '@testing-library/jest-dom';
 
